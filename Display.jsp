@@ -113,7 +113,7 @@ table,th,td,tr{
 					if(hangScannersanphamHPValues!=null){
 						for(int i=0;i<hangScannersanphamHPValues.length;i++){
 							if(hangScannersanphamHPValues[i]!=null){%><%= hangScannersanphamHPValues[i] %><br><%} }  }
-					if(hangMornitorsanphamDELLValues!=null){
+					if(hangScannersanphamBROTHERValues!=null){
 						for(int i=0;i<hangScannersanphamBROTHERValues.length;i++){
 							if(hangScannersanphamBROTHERValues[i]!=null){%><%= hangScannersanphamBROTHERValues[i] %><br><%} }  }
 					if(hangScannersanphamValues!=null){
