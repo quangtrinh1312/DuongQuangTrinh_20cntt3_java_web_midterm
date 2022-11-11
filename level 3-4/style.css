@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.5s;
+}
+:root{
+    --number: 150px;
+}
+body{
+    height: 99vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+    background-color: black;
+    color: yellow;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+form{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+button{
+    background-color: white;
+    min-width: var(--number);
+    min-height: 50px;
+}
+
+
+select{
+    width: calc(var(--number)-50px);
+    font-size: normal;
+}
+option{
+    padding: 5px;
+}
+option:hover{
+    background-color: green;
+}
+/* CSS TABLE */
+table,th,td,tr{
+    border: 2px solid gray;
+}
+/* loai Mornitor */
+.loaiMornitor{
+    position: relative;
+    display: block;
+}
+.hangMornitor{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+}
+.hangMornitorDELL{
+    position: relative;
+}
+.hangMornitorsanphamDELL{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangMornitorLENOVO{
+    position: relative;
+}
+.hangMornitorsanphamLENOVO{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangMornitorSAMSUNG{
+    position: relative;
+}
+.hangMornitorsanphamSAMSUNG{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangMornitorELSE{
+    position: relative;
+}
+.hangMornitorsanphamELSE{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.loaiMornitor:hover .hangMornitor{display: block;}
+.hangMornitorDELL:hover .hangMornitorsanphamDELL{display: block;}
+.hangMornitorLENOVO:hover .hangMornitorsanphamLENOVO{display: block;}
+.hangMornitorSAMSUNG:hover .hangMornitorsanphamSAMSUNG{display: block;}
+.hangMornitorELSE:hover .hangMornitorsanphamELSE{display: block;}
+.loaiMornitorbtn:hover{background-color: blue;}
+.hangbtn:hover{background-color: blue;}
+
+/* loai Printer */
+.loaiPrinter{
+    position: relative;
+    display: block;
+}
+.hangPrinter{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+}
+.hangPrinterCanon{
+    position: relative;
+}
+.hangPrintersanphamCanon{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangPrinterHP{
+    position: relative;
+}
+.hangPrintersanphamHP{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangPrinterEPSON{
+    position: relative;
+}
+.hangPrintersanphamEPSON{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangPrinterBROTHER{
+    position: relative;
+}
+.hangPrintersanphamBROTHER{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangPrinterELSE{
+    position: relative;
+}
+.hangPrintersanphamELSE{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.loaiPrinter:hover .hangPrinter{display: block;}
+.hangPrinterCanon:hover .hangPrintersanphamCanon{display: block;}
+.hangPrinterHP:hover .hangPrintersanphamHP{display: block;}
+.hangPrinterEPSON:hover .hangPrintersanphamEPSON{display: block;}
+.hangPrinterBROTHER:hover .hangPrintersanphamBROTHER{display: block;}
+.hangPrinterELSE:hover .hangPrintersanphamELSE{display: block;}
+.loaiPrinterbtn:hover{background-color: blue;}
+
+/* loai Scanner */
+.loaiScanner{
+    position: relative;
+    display: block;
+}
+.hangScanner{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    display: none;
+}
+.hangScannerPlusktes{
+    position: relative;
+}
+.hangScannersanphamPlusktes{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangScannerHP{
+    position: relative;
+}
+.hangScannersanphamHP{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangScannerBROTHER{
+    position: relative;
+}
+.hangScannersanphamBROTHER{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.hangScannerELSE{
+    position: relative;
+}
+.hangScannersanphamELSE{
+    position: absolute;
+    left: 100%;
+    top:0%;
+    display: none;
+}
+.loaiScanner:hover .hangScanner{display: block;}
+.hangScannerPlusktes:hover .hangScannersanphamPlusktes{display: block;}
+.hangScannerHP:hover .hangScannersanphamHP{display: block;}
+.hangScannerBROTHER:hover .hangScannersanphamBROTHER{display: block;}
+.hangScannerELSE:hover .hangScannersanphamELSE{display: block;}
+.loaiScannerbtn:hover{background-color: blue;}
+/* CSS SUBMIT BUTON */
+.SUBMIT{
+    width: 100%;
+    border: 5px solid red;
+    border-radius: 2px;
+    min-width: 100px;
+    min-height: 40px;
+}
+.SUBMIT:hover{
+    border: 5px solid green;
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    transition-delay: 0,5s;
+}
